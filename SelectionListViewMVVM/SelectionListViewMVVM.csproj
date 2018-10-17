@@ -62,15 +62,15 @@
     <Compile Include="PropertyChangedObject.cs" />
     <Compile Include="RelayCommand.cs" />
     <Compile Include="ViewModel\UpDownListViewViewModel.cs" />
-    <Compile Include="View\MultiSelectUpDownListView.xaml.cs">
-      <DependentUpon>MultiSelectUpDownListView.xaml</DependentUpon>
+    <Compile Include="View\SelectionListView.xaml.cs">
+      <DependentUpon>SelectionListView.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="View\MultiSelectUpDownListView.xaml">
+    <Page Include="View\SelectionListView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
